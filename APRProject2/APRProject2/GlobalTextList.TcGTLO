@@ -6,6 +6,16 @@
         <o xml:space="preserve" t="GlobalTextListObject">
           <l n="TextList" t="ArrayList" cet="TextListRow">
             <o>
+              <v n="TextID">"770"</v>
+              <v n="TextDefault">"'ON/OFF ALL VALVES'"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"993"</v>
+              <v n="TextDefault">"'ON/OFF FCs'"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
               <v n="TextID">"493"</v>
               <v n="TextDefault">"'OPEN/CLOSE ALL VALVES'"</v>
               <l n="LanguageTexts" t="ArrayList" />
@@ -118,6 +128,11 @@
             <o>
               <v n="TextID">"93"</v>
               <v n="TextDefault">"ML/MIN"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"247"</v>
+              <v n="TextDefault">"ml/min"</v>
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>
