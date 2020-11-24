@@ -850,6 +850,10 @@ Bit1: Value bigger/equal Limit2]]></Comment>
 		<OwnerA Name="TIPC^APRProject2^APRProject2 Instance">
 			<OwnerB Name="TIID^Device 2 (EtherCAT)^Term 8 (EK1200)^Term 7 (EL2008)">
 				<Link VarA="PlcTask Outputs^IO.fx1_REF" VarB="Channel 1^Output"/>
+				<Link VarA="PlcTask Outputs^IO.fx2_REF" VarB="Channel 2^Output"/>
+				<Link VarA="PlcTask Outputs^IO.fx3_REF" VarB="Channel 3^Output"/>
+				<Link VarA="PlcTask Outputs^IO.fx4_REF" VarB="Channel 4^Output"/>
+				<Link VarA="PlcTask Outputs^IO.fx5_REF" VarB="Channel 5^Output"/>
 			</OwnerB>
 		</OwnerA>
 	</Mappings>
