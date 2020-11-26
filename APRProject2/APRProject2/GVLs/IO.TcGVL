@@ -26,7 +26,10 @@ VAR_GLOBAL
 	fx2_REF AT %Q* : BOOL := FALSE; (* FMC 12 VDC BOOL 1|0 *) 
 	fx3_REF AT %Q* : BOOL := FALSE; (* FMC 12 VDC BOOL 1|0 *) 
 	fx4_REF AT %Q* : BOOL := FALSE; (* FMC 12 VDC BOOL 1|0 *) 
-	fx5_REF AT %Q* : BOOL := FALSE; (* FMC 12 VDC BOOL 1|0 *) 	
+	fx5_REF AT %Q* : BOOL := FALSE; (* FMC 12 VDC BOOL 1|0 *) 
+	fx6_REF AT %Q* : BOOL := FALSE; (* FMC 12 VDC BOOL 1|0 *) 
+	fx7_REF AT %Q* : BOOL := FALSE; (* FMC 12 VDC BOOL 1|0 *) 
+	fx8_REF AT %Q* : BOOL := FALSE; (* FMC 12 VDC BOOL 1|0 *) 	
 	 (* *) (* *) (* *) (* *) (* *) (* *) (* *) (* *) (* *) (* *) (* *) (* *) (* *)
 	v1_REF AT %Q* : BOOL := FALSE;
 	v2_REF AT %Q* : BOOL := FALSE; 

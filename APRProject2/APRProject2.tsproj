@@ -187,6 +187,21 @@
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
+							<Name>IO.fx6_REF</Name>
+							<Comment><![CDATA[ FMC 12 VDC BOOL 1|0 ]]></Comment>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>IO.fx7_REF</Name>
+							<Comment><![CDATA[ FMC 12 VDC BOOL 1|0 ]]></Comment>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>IO.fx8_REF</Name>
+							<Comment><![CDATA[ FMC 12 VDC BOOL 1|0 ]]></Comment>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
 							<Name>IO.v1_REF</Name>
 							<Comment><![CDATA[ 
  
@@ -854,6 +869,9 @@ Bit1: Value bigger/equal Limit2]]></Comment>
 				<Link VarA="PlcTask Outputs^IO.fx3_REF" VarB="Channel 3^Output"/>
 				<Link VarA="PlcTask Outputs^IO.fx4_REF" VarB="Channel 4^Output"/>
 				<Link VarA="PlcTask Outputs^IO.fx5_REF" VarB="Channel 5^Output"/>
+				<Link VarA="PlcTask Outputs^IO.fx6_REF" VarB="Channel 6^Output"/>
+				<Link VarA="PlcTask Outputs^IO.fx7_REF" VarB="Channel 7^Output"/>
+				<Link VarA="PlcTask Outputs^IO.fx8_REF" VarB="Channel 8^Output"/>
 			</OwnerB>
 		</OwnerA>
 	</Mappings>
