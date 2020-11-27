@@ -437,7 +437,7 @@
 							<DcMode>53796e6368726f6e0000000000000000534d2d53796e6368726f6e000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</DcMode>
 							<DcMode>4443000000000000000000000000000044432d53796e6368726f6e0000000000000000000000000000000000000000000000000000000000a0860100000000070100000000000000000000000000000000000000000000000000000000000000</DcMode>
 							<Pdo Name="AO Outputs" Index="#x1600" InOut="1" Flags="#x0011" SyncMan="2">
-								<Entry Name="Analog output" Index="#x7000" Sub="#x11" Flags="#x00040000">
+								<Entry Name="IO.k1_REF" Index="#x7000" Sub="#x11" Flags="#x00040000">
 									<Type>INT</Type>
 								</Entry>
 							</Pdo>
@@ -514,7 +514,7 @@ Bit1: Value bigger/equal Limit2]]></Comment>
 									<Type>BIT</Type>
 									<Comment><![CDATA[Bit toggles everytime when new value available]]></Comment>
 								</Entry>
-								<Entry Name="Value" Index="#x6000" Sub="#x11" Flags="#x00040000">
+								<Entry Name="IO.f1_REF" Index="#x6000" Sub="#x11" Flags="#x00040000">
 									<Type>INT</Type>
 								</Entry>
 							</Pdo>
@@ -631,7 +631,7 @@ Bit1: Value bigger/equal Limit2]]></Comment>
 										<InOut>1</InOut>
 									</Var>
 									<Var DisplayScale="#x1">
-										<Name>Data Out</Name>
+										<Name>IO.k2_REF</Name>
 										<Type>INT</Type>
 										<BitOffs>344</BitOffs>
 										<InOut>1</InOut>
@@ -658,7 +658,7 @@ Bit1: Value bigger/equal Limit2]]></Comment>
 										<InOut>1</InOut>
 									</Var>
 									<Var DisplayScale="#x1">
-										<Name>Data Out</Name>
+										<Name>IO.k3_REF</Name>
 										<Type>INT</Type>
 										<BitOffs>376</BitOffs>
 										<InOut>1</InOut>
@@ -689,7 +689,7 @@ Bit1: Value bigger/equal Limit2]]></Comment>
 										<InOut>1</InOut>
 									</Var>
 									<Var DisplayScale="#x1">
-										<Name>Data Out</Name>
+										<Name>IO.k4_REF</Name>
 										<Type>INT</Type>
 										<BitOffs>408</BitOffs>
 										<InOut>1</InOut>
@@ -716,7 +716,7 @@ Bit1: Value bigger/equal Limit2]]></Comment>
 										<InOut>1</InOut>
 									</Var>
 									<Var DisplayScale="#x1">
-										<Name>Data Out</Name>
+										<Name>IO.k5_REF</Name>
 										<Type>INT</Type>
 										<BitOffs>440</BitOffs>
 										<InOut>1</InOut>
@@ -735,7 +735,7 @@ Bit1: Value bigger/equal Limit2]]></Comment>
 										<InOut>0</InOut>
 									</Var>
 									<Var DisplayScale="#x1">
-										<Name>Data In</Name>
+										<Name>IO.f2_REF</Name>
 										<Type>INT</Type>
 										<BitOffs>472</BitOffs>
 										<InOut>0</InOut>
@@ -762,7 +762,7 @@ Bit1: Value bigger/equal Limit2]]></Comment>
 										<InOut>0</InOut>
 									</Var>
 									<Var DisplayScale="#x1">
-										<Name>Data In</Name>
+										<Name>IO.f3_REF</Name>
 										<Type>INT</Type>
 										<BitOffs>504</BitOffs>
 										<InOut>0</InOut>
@@ -793,7 +793,7 @@ Bit1: Value bigger/equal Limit2]]></Comment>
 										<InOut>0</InOut>
 									</Var>
 									<Var DisplayScale="#x1">
-										<Name>Data In</Name>
+										<Name>IO.f4_REF</Name>
 										<Type>INT</Type>
 										<BitOffs>536</BitOffs>
 										<InOut>0</InOut>
@@ -820,7 +820,7 @@ Bit1: Value bigger/equal Limit2]]></Comment>
 										<InOut>0</InOut>
 									</Var>
 									<Var DisplayScale="#x1">
-										<Name>Data In</Name>
+										<Name>IO.f5_REF</Name>
 										<Type>INT</Type>
 										<BitOffs>568</BitOffs>
 										<InOut>0</InOut>
@@ -859,10 +859,38 @@ Bit1: Value bigger/equal Limit2]]></Comment>
 				<EtherCAT/>
 			</Device>
 		</Io>
+		<SymbolWatch>
+			<Variable>TIID^Device 2 (EtherCAT)^Term 8 (EK1200)^Term 6 (EL3021)^AI Standard^IO.f1_REF</Variable>
+			<Variable>TIID^Device 2 (EtherCAT)^Term 8 (EK1200)^Box 15 (BK1250)^Term 2 (KL4132)^Channel 1^IO.k2_REF</Variable>
+			<Variable>TIID^Device 2 (EtherCAT)^Term 8 (EK1200)^Box 15 (BK1250)^Term 2 (KL4132)^Channel 2^IO.k3_REF</Variable>
+			<Variable>TIID^Device 2 (EtherCAT)^Term 8 (EK1200)^Box 15 (BK1250)^Term 3 (KL4132)^Channel 1^IO.k4_REF</Variable>
+			<Variable>TIID^Device 2 (EtherCAT)^Term 8 (EK1200)^Box 15 (BK1250)^Term 3 (KL4132)^Channel 2^IO.k5_REF</Variable>
+			<Variable>TIID^Device 2 (EtherCAT)^Term 8 (EK1200)^Box 15 (BK1250)^Term 4 (KL3102)^Channel 1^IO.f2_REF</Variable>
+			<Variable>TIID^Device 2 (EtherCAT)^Term 8 (EK1200)^Box 15 (BK1250)^Term 4 (KL3102)^Channel 2^IO.f3_REF</Variable>
+			<Variable>TIID^Device 2 (EtherCAT)^Term 8 (EK1200)^Box 15 (BK1250)^Term 5 (KL3102)^Channel 1^IO.f4_REF</Variable>
+			<Variable>TIID^Device 2 (EtherCAT)^Term 8 (EK1200)^Box 15 (BK1250)^Term 5 (KL3102)^Channel 2^IO.f5_REF</Variable>
+			<Variable>TIID^Device 2 (EtherCAT)^Term 8 (EK1200)^Term 4 (EL4021)^AO Outputs^IO.k1_REF</Variable>
+		</SymbolWatch>
 	</Project>
 	<Mappings>
 		<MappingInfo Identifier="{00000000-2002-0850-0020-500810000403}" Id="#x02030010"/>
 		<OwnerA Name="TIPC^APRProject2^APRProject2 Instance">
+			<OwnerB Name="TIID^Device 2 (EtherCAT)^Term 8 (EK1200)^Box 15 (BK1250)">
+				<Link VarA="PlcTask Inputs^IO.f2_REF" VarB="Term 4 (KL3102)^Channel 1^IO.f2_REF"/>
+				<Link VarA="PlcTask Inputs^IO.f3_REF" VarB="Term 4 (KL3102)^Channel 2^IO.f3_REF"/>
+				<Link VarA="PlcTask Inputs^IO.f4_REF" VarB="Term 5 (KL3102)^Channel 1^IO.f4_REF"/>
+				<Link VarA="PlcTask Inputs^IO.f5_REF" VarB="Term 5 (KL3102)^Channel 2^IO.f5_REF"/>
+				<Link VarA="PlcTask Outputs^IO.k2_REF" VarB="Term 2 (KL4132)^Channel 1^IO.k2_REF"/>
+				<Link VarA="PlcTask Outputs^IO.k3_REF" VarB="Term 2 (KL4132)^Channel 2^IO.k3_REF"/>
+				<Link VarA="PlcTask Outputs^IO.k4_REF" VarB="Term 3 (KL4132)^Channel 1^IO.k4_REF"/>
+				<Link VarA="PlcTask Outputs^IO.k5_REF" VarB="Term 3 (KL4132)^Channel 2^IO.k5_REF"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 2 (EtherCAT)^Term 8 (EK1200)^Term 4 (EL4021)">
+				<Link VarA="PlcTask Outputs^IO.k1_REF" VarB="AO Outputs^IO.k1_REF"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 2 (EtherCAT)^Term 8 (EK1200)^Term 6 (EL3021)">
+				<Link VarA="PlcTask Inputs^IO.f1_REF" VarB="AI Standard^IO.f1_REF"/>
+			</OwnerB>
 			<OwnerB Name="TIID^Device 2 (EtherCAT)^Term 8 (EK1200)^Term 7 (EL2008)">
 				<Link VarA="PlcTask Outputs^IO.fx1_REF" VarB="Channel 1^Output"/>
 				<Link VarA="PlcTask Outputs^IO.fx2_REF" VarB="Channel 2^Output"/>

@@ -1772,7 +1772,12 @@
                     </o>
                     <o>
                       <v n="Id">2662675643L</v>
-                      <v n="Value">4278190080U</v>
+                      <l n="Value" t="ArrayList" cet="NamedStyleColor">
+                        <o>
+                          <v n="Color">-65536</v>
+                          <v n="CanonicalName">"BasicElement-Alarm-Frame-Color"</v>
+                        </o>
+                      </l>
                     </o>
                     <o>
                       <v n="Id">229573994L</v>
@@ -1830,8 +1835,8 @@
                       <v n="Id">1362193026L</v>
                       <l n="Value" t="ArrayList" cet="NamedStyleColor">
                         <o>
-                          <v n="Color">-16745985</v>
-                          <v n="CanonicalName">"Element-XYChart-Secondary-CursorColor"</v>
+                          <v n="Color">-65536</v>
+                          <v n="CanonicalName">"Element-Alarm-Frame-Color"</v>
                         </o>
                       </l>
                     </o>
@@ -1869,20 +1874,20 @@
                     </o>
                     <o>
                       <v n="Id">2114303691L</v>
-                      <v n="Value" t="Int16">1</v>
+                      <v n="Value" t="Int16">3</v>
                     </o>
                     <o>
                       <v n="Id">1527935698L</v>
                       <l n="Value" t="ArrayList" cet="NamedStyleColor">
                         <o>
                           <v n="Color">-16777216</v>
-                          <v n="CanonicalName">"Element-Potentiometer-LabelFontColor"</v>
+                          <v n="CanonicalName">"Element-DatePicker-MainArea-SelectedDay-FontColor"</v>
                         </o>
                       </l>
                     </o>
                     <o>
                       <v n="Id">3242473866L</v>
-                      <v n="Value">true</v>
+                      <v n="Value">false</v>
                     </o>
                     <o>
                       <v n="Id">2969766029L</v>
@@ -1974,7 +1979,7 @@
                     </o>
                     <o>
                       <v n="Id">1937167831L</v>
-                      <v n="Value">"CIRCLE"</v>
+                      <v n="Value">"SMALL_ARROW"</v>
                     </o>
                     <o>
                       <v n="Id">518627256L</v>
@@ -2436,8 +2441,8 @@
                       <v n="Id">1362193026L</v>
                       <l n="Value" t="ArrayList" cet="NamedStyleColor">
                         <o>
-                          <v n="Color">-16745985</v>
-                          <v n="CanonicalName">"Element-XYChart-Secondary-CursorColor"</v>
+                          <v n="Color">-65536</v>
+                          <v n="CanonicalName">"Element-Alarm-Frame-Color"</v>
                         </o>
                       </l>
                     </o>
@@ -2475,7 +2480,7 @@
                     </o>
                     <o>
                       <v n="Id">2114303691L</v>
-                      <v n="Value" t="Int16">1</v>
+                      <v n="Value" t="Int16">3</v>
                     </o>
                     <o>
                       <v n="Id">1527935698L</v>
@@ -2488,7 +2493,7 @@
                     </o>
                     <o>
                       <v n="Id">3242473866L</v>
-                      <v n="Value">true</v>
+                      <v n="Value">false</v>
                     </o>
                     <o>
                       <v n="Id">2969766029L</v>
@@ -2580,7 +2585,7 @@
                     </o>
                     <o>
                       <v n="Id">1937167831L</v>
-                      <v n="Value">"CIRCLE"</v>
+                      <v n="Value">"SMALL_ARROW"</v>
                     </o>
                     <o>
                       <v n="Id">518627256L</v>
@@ -3081,7 +3086,7 @@
                     </o>
                     <o>
                       <v n="Id">2114303691L</v>
-                      <v n="Value" t="Int16">1</v>
+                      <v n="Value" t="Int16">3</v>
                     </o>
                     <o>
                       <v n="Id">1527935698L</v>
@@ -3094,7 +3099,7 @@
                     </o>
                     <o>
                       <v n="Id">3242473866L</v>
-                      <v n="Value">true</v>
+                      <v n="Value">false</v>
                     </o>
                     <o>
                       <v n="Id">2969766029L</v>
@@ -3186,7 +3191,7 @@
                     </o>
                     <o>
                       <v n="Id">1937167831L</v>
-                      <v n="Value">"CIRCLE"</v>
+                      <v n="Value">"SMALL_ARROW"</v>
                     </o>
                     <o>
                       <v n="Id">518627256L</v>
@@ -3648,8 +3653,8 @@
                       <v n="Id">1362193026L</v>
                       <l n="Value" t="ArrayList" cet="NamedStyleColor">
                         <o>
-                          <v n="Color">-16745985</v>
-                          <v n="CanonicalName">"Element-XYChart-Secondary-CursorColor"</v>
+                          <v n="Color">-16777216</v>
+                          <v n="CanonicalName">"Element-DateTimePicker-Cell-FontColor"</v>
                         </o>
                       </l>
                     </o>
@@ -3687,7 +3692,7 @@
                     </o>
                     <o>
                       <v n="Id">2114303691L</v>
-                      <v n="Value" t="Int16">1</v>
+                      <v n="Value" t="Int16">3</v>
                     </o>
                     <o>
                       <v n="Id">1527935698L</v>
@@ -3700,7 +3705,7 @@
                     </o>
                     <o>
                       <v n="Id">3242473866L</v>
-                      <v n="Value">true</v>
+                      <v n="Value">false</v>
                     </o>
                     <o>
                       <v n="Id">2969766029L</v>
@@ -3792,7 +3797,7 @@
                     </o>
                     <o>
                       <v n="Id">1937167831L</v>
-                      <v n="Value">"CIRCLE"</v>
+                      <v n="Value">"SMALL_ARROW"</v>
                     </o>
                     <o>
                       <v n="Id">518627256L</v>
@@ -6234,7 +6239,7 @@
                 <v n="VisualElementIdentifier">"GenElemInst_143"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
-                <d n="VisualElementInputActions" t="Hashtable" ckt="String" cvt="IInputAction[]">
+                <d n="VisualElementInputActions" t="Hashtable" ckt="String" cvt="ToggleVarInputAction[]">
                   <v>OnMouseClick</v>
                   <a cet="ToggleVarInputAction">
                     <o>
@@ -12055,10 +12060,10 @@
               <d n="FbMethods" t="CaseInsensitiveHashtable" ckt="String" cvt="Guid">
                 <v>FB_Init</v>
                 <v>0d59a206-979b-4258-92b9-885a0e0df583</v>
-                <v>FB_Exit</v>
-                <v>9b0d2b53-2346-4497-b85e-401107d8c42c</v>
                 <v>FB_Reinit</v>
                 <v>d00428ba-d398-441a-850b-20d7c9eecf05</v>
+                <v>FB_Exit</v>
+                <v>9b0d2b53-2346-4497-b85e-401107d8c42c</v>
               </d>
               <v n="FbName">"NotImportant"</v>
               <v n="FbGuid">{8d091002-da54-4bc0-be16-147a002df79a}</v>
@@ -12151,7 +12156,6 @@
         <Type n="Guid">System.Guid</Type>
         <Type n="Hashtable">System.Collections.Hashtable</Type>
         <Type n="HotkeyConfiguration">{6b108d46-58af-4e41-a3f4-174d8f160cc4}</Type>
-        <Type n="IInputAction[]">_3S.CoDeSys.VisualElem.IInputAction[], VisualElem, Version=3.5.13.0, Culture=neutral, PublicKeyToken=null</Type>
         <Type n="Int16">System.Int16</Type>
         <Type n="Int32">System.Int32</Type>
         <Type n="Int64">System.Int64</Type>
