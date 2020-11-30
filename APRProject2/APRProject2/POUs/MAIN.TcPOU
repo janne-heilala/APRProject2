@@ -4,11 +4,11 @@
     <Declaration><![CDATA[PROGRAM MAIN
 VAR
 	(* *) (* *) (* *) (* *) (* *) (* *) (* *) (* *) (* *) (* *) (* *) (* *) (* *)
-	meter1: LREAL;
-	meter2: LREAL;	
-	meter3: LREAL;	
-	meter4: LREAL;	
-	meter5: LREAL;	
+	meter1: INT;
+	meter2: INT;	
+	meter3: INT;	
+	meter4: INT;	
+	meter5: INT;	
 	(* *) (* *) (* *) (* *) (* *) (* *) (* *) (* *) (* *) (* *) (* *) (* *) (* *)
 	idx: BOOL;
 	idxDev: BOOL;
@@ -114,10 +114,10 @@ END_IF
 ///////////////////////////////////////////////////////////////////////////
 (* *) (* *) (* *) (* *) (* *) (* *) (* *) (* *) (* *) (* *) (* *) (* *) (* *)
 (*CONVERTS LREAL ITEM OUTPUTS INTO TERMINAL INPUTS OF INT OF REAL WORLD SCALE*)
-meter1:=io.f1_REF/520 (*25 ml/min*) (*/819.5*100*); //ADD CONVERSION // AGD ? CURRENT
-meter2:=io.f2_REF/520 (*25 ml/min*) (*/819.5*100*); //ADD CONVERSION // VOLTAGE
-meter3:=io.f3_REF/520 (*25 ml/min*) (*/819.5*100*); //ADD CONVERSION // VOLTAGE
-meter4:=io.f4_REF/520 (*25 ml/min*) (*/819.5*100*); //ADD CONVERSION // VOLTAGE
+meter1:=io.UI1_REF (*25 ml/min*) (*/819.5*100*); //ADD CONVERSION // AGD ? CURRENT
+meter2:=io.f2_REF (*25 ml/min*) (*/819.5*100*); //ADD CONVERSION // VOLTAGE
+meter3:=io.f3_REF/65 (*25 ml/min*) (*/819.5*100*); //ADD CONVERSION // VOLTAGE
+meter4:=io.f4_REF/65 (*25 ml/min*) (*/819.5*100*); //ADD CONVERSION // VOLTAGE
 meter5:=io.f5_REF/520 (*25 ml/min*) (*/819.5*100*); //ADD CONVERSION // VOLTAGE
 // k1_REF AS OVERRIDING ODD INPUT VALUES
 // 
@@ -135,11 +135,11 @@ meter5:=io.f5_REF/520 (*25 ml/min*) (*/819.5*100*); //ADD CONVERSION // VOLTAGE
 (* *) (* *) (* *) (* *) (* *) (* *) (* *) (* *) (* *) (* *) (* *) (* *) (* *)
 (* *) (* *) (* *) (* *) (* *) (* *) (* *) (* *) (* *) (* *) (* *) (* *) (* *)
 (*CONVERTS LREAL ITEM OUTPUTS INTO TERMINAL INPUTS OF INT OF REAL WORLD SCALE*)
-io.k1_REF:=520*io.UI1_REF;  (*25 ml/min*) (*/819.5*100*); //ADD CONVERSION // VOLTAGE
-io.k2_REF:=520*io.UI2_REF;  (*25 ml/min*) (*/819.5*100*); //ADD CONVERSION // VOLTAGE
-io.k3_REF:=520*io.UI3_REF;  (*25 ml/min*) (*/819.5*100*); //ADD CONVERSION // VOLTAGE
-io.k4_REF:=520*io.UI4_REF;  (*25 ml/min*) (*/819.5*100*); //ADD CONVERSION // VOLTAGE
-io.k5_REF:=520*io.UI5_REF;  (*25 ml/min*) (*/819.5*100*); //ADD CONVERSION // VOLTAGE
+io.k1_REF:=65*io.UI1_REF;  (*25 ml/min*) (*/819.5*100*); //ADD CONVERSION // VOLTAGE //OK
+io.k2_REF:=30*io.UI2_REF;  (*25 ml/min*) (*/819.5*100*); //ADD CONVERSION // VOLTAGE //
+io.k3_REF:=520*io.UI3_REF;  (*25 ml/min*) (*/819.5*100*); //ADD CONVERSION // VOLTAGE //
+io.k4_REF:=520*io.UI4_REF;  (*25 ml/min*) (*/819.5*100*); //ADD CONVERSION // VOLTAGE //
+io.k5_REF:=520*io.UI5_REF;  (*25 ml/min*) (*/819.5*100*); //ADD CONVERSION // VOLTAGE //
 (* *) (* *) (* *) (* *) (* *) (* *) (* *) (* *) (* *) (* *) (* *) (* *) (* *)
 (* *) (* *) (* *) (* *) (* *) (* *) (* *) (* *) (* *) (* *) (* *) (* *) (* *)
 (* *) (* *) (* *) (* *) (* *) (* *) (* *) (* *) (* *) (* *) (* *) (* *) (* *)
